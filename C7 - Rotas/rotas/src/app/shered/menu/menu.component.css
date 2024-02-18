@@ -1,0 +1,26 @@
+.menu-bar {
+  background-color: #333; /* Cor de fundo da barra de menu */
+  padding: 10px; /* Espaçamento interno */
+}
+
+.menu-bar ul {
+  list-style-type: none; /* Remover marcadores de lista */
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar li {
+  display: inline-block; /* Exibir itens em linha */
+  margin-right: 20px; /* Espaçamento entre os itens do menu */
+}
+
+.menu-bar a {
+  text-decoration: none; /* Remover sublinhado padrão dos links */
+  color: #fff; /* Cor do texto do link */
+  font-weight: bold; /* Negrito no texto do link */
+  font-size: 16px; /* Tamanho da fonte do link */
+}
+
+.menu-bar a:hover {
+  color: #ffcc00; /* Cor do texto do link ao passar o mouse sobre ele */
+}
